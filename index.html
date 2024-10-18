@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login Website</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<style>
+		* {
+			margin:0;
+			padding:0;
+		}
+		h1 {
+			text-align:center;
+			color:#C24680;
+		}
+
+		img {
+			width:50px;
+			border-radius: 64px;
+			text-align: center;
+			border: 5px solid #F694C1;
+		}
+
+		body {
+			color:#31081F;
+			font-family: "Fredoka", sans-serif;
+			background-size:cover;
+			background-color:#F694C1;
+			background-image: url(https://cdn.pixabay.com/photo/2017/06/14/16/56/background-2402703_1280.jpg);
+			text-align: center;
+		}
+
+		small {
+			text-align: center;
+		}
+
+		h4 {
+			color:#C24680;
+		}
+		.header {
+			padding:40px;
+			text-align:center;
+			background-color: #E4C1F9;
+		}
+
+		.login {
+			padding:50px;
+			border: 5px outset #6B8D9F;
+			background-color:#A9DEF9;
+			margin-top: 6%;
+			margin-bottom: 15%;
+			margin-left:40%;
+			margin-right:40%;
+			border-radius:10px;
+			box-shadow: 10px 10px 10px#C24680;
+		}
+
+		.footer {
+			padding: 40px;
+			text-align: center;
+			background-color: #E4C1F9;
+			position: fixed; 
+    		bottom: 0; 
+    		left: 0; 
+    		right:0;
+    	
+    	}
+
+		.button {
+			width:100%;
+		}
+
+		.password {
+			width:100%;
+		}
+
+		.username {
+			width:100%;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="header">
+		<h1>Welcome to My Website!</h1>
+	</div>
+	<br />
+		<div class="login">
+			<form>
+				<image src="https://cdn.pixabay.com/photo/2014/04/03/10/32/user-310807_1280.png">
+				<legend><span style="color:#8756A4;font-weight:bold;font-size:25px;text-align:center;">Login</span></legend>
+				<br />
+
+				<label>
+					Username:
+				<br />
+				<input type="text" name="user" class="username">
+				</label>
+				<br />
+
+				<label>
+				Password: 
+				<br />
+					<input type="password" name="pass" class="password">
+				</label>
+				<br />
+				<br />
+				<input type="submit" value="Login" class="button">
+		</div>
+			</form>
+
+	<div class="footer">
+		<h4>Charlize Liana M. Galang︱9 - Ruby</h4>
+	</div>	
+
+</body>
+</html>
